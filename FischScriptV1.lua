@@ -3,7 +3,8 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Read JSON config
 local HttpService = game:GetService("HttpService")
-local config = HttpService:JSONDecode(readfile("FischScript.json")) -- Adjust path if needed
+local configUrl = 'https://raw.githubusercontent.com/Cristtev/RobloxScript/refs/heads/main/FischScript.json'
+local config = HttpService:JSONDecode(game:HttpGet(configUrl))
 
 -- Create main UI window
 local Window = Rayfield:CreateWindow({
