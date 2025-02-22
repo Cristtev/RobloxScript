@@ -1,0 +1,1 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Cristtev/RobloxScript/refs/heads/main/FischScriptV1.lua'))()
