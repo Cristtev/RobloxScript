@@ -1,5 +1,5 @@
 -- Load Rayfield UI Library
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Cristtev/RobloxScript/refs/heads/main/FischScriptV1.lua'))()
 
 -- Read JSON config
 local HttpService = game:GetService("HttpService")
